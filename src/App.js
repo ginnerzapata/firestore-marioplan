@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route path="/" exact sicomponent={Dashboard} />
+          <Route path="/" exact component={Dashboard} />
           <Route path="/create" component={CreateProject} />
           <Route path="/project/:id" component={ProjectDetails} />
           <Route path="/signin" component={SignIn} />
